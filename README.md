@@ -4,7 +4,7 @@
 
 ## 简介：
 
-FISCO BCOS 系统部署运维实践文档是一份针对 FISCO-BCOS 区块链平台运维的指引手册，是对 `FISCO-BCOS 官方文档 <https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/index.html>`_  的整理和补充。
+FISCO BCOS 系统部署运维实践文档是一份针对 FISCO-BCOS 区块链平台运维的指引手册，是对 [FISCO-BCOS 官方文档](https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/index.html)的整理和补充。
 
 文档的结构按照区块链运维 **部署前**，**部署** 以及 **后期运维** 的三个阶段进行组织，对每一阶段进行了概括和整理，列出每个阶段不同的操作方式，具体操作流程。
 
