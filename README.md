@@ -1,7 +1,6 @@
 # [FISCO BCOS 系统部署运维实践文档](https://fisco-bcos-ops-doc.readthedocs.io/)
 # FISCO-BCOS-Ops-Doc
 ![LICENSE](https://img.shields.io/github/license/WeBankBlockchain/FISCO-BCOS-Ops-Doc)
-<a href="https://github.com/WeBankBlockchain/FISCO-BCOS-Ops-Doc"><img src="https://sloc.xyz/github/WeBankBlockchain/FISCO-BCOS-Ops-Doc" /></a>
 
 ## 简介：
 
