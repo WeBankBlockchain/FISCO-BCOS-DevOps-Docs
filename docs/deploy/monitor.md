@@ -72,7 +72,7 @@ WeBASE-Front 的部署，请参考：[部署 WeBASE-Front](https://webasedoc.rea
 
 ## 监控脚本
 
-FISCO BCOS generator 生成的节点配置文件夹中提供了内置的监控脚本 `monitor.sh`，需要配置告警信息接受账号。再搭配 `crontab` 一分钟执行一次脚本。
+FISCO-BCOS generator 生成的节点配置文件夹中提供了内置的监控脚本 `monitor.sh`，需要配置告警信息接受账号。再搭配 `crontab` 一分钟执行一次脚本。
 
 脚本会自动解析节点日志，匹配一定的规则（比如某个 `error` 或者 `warning` 连续出现 5 次），自动发告警信息到配置的账号。
 
@@ -86,7 +86,7 @@ FISCO BCOS generator 生成的节点配置文件夹中提供了内置的监控�
 ```eval_rst
 .. admonition:: 提示
 
-     - 只有通过 FISCO BCOS generator 生成的节点配置文件，才包含了 `monitor.sh` 脚本，`build_chain.sh` 生成的节点配置文件暂不包含。
+     - 只有通过 FISCO-BCOS generator 生成的节点配置文件，才包含了 `monitor.sh` 脚本，`build_chain.sh` 生成的节点配置文件暂不包含。
      - `monitor.sh` 需要加入到 `crontab` 定时执行，推荐 **一分钟**
 ```
 

@@ -4,7 +4,7 @@
 
 ## 开发（体验）环境
 
-开发环境部署是采用一键部署脚本 `build_chain.sh` 在单机上快速部署一条 4 节点的 FISCO BCOS 联盟链，通过控制台（console）或可视化界面（WeBASE-Front）完成合约的编译，部署，调试和调用等操作。
+开发环境部署是采用一键部署脚本 `build_chain.sh` 在单机上快速部署一条 4 节点的 FISCO-BCOS 联盟链，通过控制台（console）或可视化界面（WeBASE-Front）完成合约的编译，部署，调试和调用等操作。
 
 主要操作步骤：
 ```Bash
@@ -86,7 +86,7 @@ bash nodes/127.0.0.1/start_all.sh
 
 ### 运维工具部署（generator）
 
-FISCO BCOS generator 是一个基于 Python 实现，为企业用户提供了部署、管理、监控多机构多群组联盟链的便捷工具。
+FISCO-BCOS generator 是一个基于 Python 实现，为企业用户提供了部署、管理、监控多机构多群组联盟链的便捷工具。
 
 generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种方式。
 

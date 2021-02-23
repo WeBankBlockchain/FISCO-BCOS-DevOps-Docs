@@ -99,7 +99,7 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'FISCO-BCOS-OPS'
+project = u'FISCOFISCO-BCOS-DevOps-Docs'
 copyright = u'© 2020. All rights reserved.'
 author = u'WeBankFinTech'
 
@@ -167,7 +167,7 @@ todo_include_todos = True
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
 html_context = {
     "display_github": True, # Integrate GitHub
-    "github_repo": "FISCO-BCOS-OPS-DOC", # Repo name
+    "github_repo": "FISCOFISCO-BCOS-DevOps-Docs", # Repo name
     "github_version": "master", # Version
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
@@ -263,7 +263,7 @@ html_search_language = 'zh'
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FISCO_BCOS_OPS_DOC_doc'
+htmlhelp_basename = 'fiscofisco_bcos_devops_docs'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -303,7 +303,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'FISCO-BCOS.tex', u'FISCO-BCOS Documentation',
+  (master_doc, 'FISCO-BCOS-DevOps-Docs.tex', u'FISCO-BCOS-DevOps-Docs Documentation',
    u'WeBankFinTech', 'manual'),
 ]
 
@@ -333,7 +333,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'FISCO-BCOS', u'FISCO-BCOS Documentation',
+    (master_doc, 'FISCO-BCOS-DevOps-Docs', u'FISCOFISCO-BCOS-DevOps-Docs Documentation',
      [author], 1)
 ]
 
@@ -347,8 +347,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'FISCO-BCOS', u'FISCO-BCOS Documentation',
-   author, 'WeBankFinTech', 'documents of FISCO-BCOS',
+  (master_doc, 'FISCOFISCO-BCOS-DevOps-Docs', u'FISCOFISCO-BCOS-DevOps-Docs Documentation',
+   author, 'WeBankFinTech', 'documents of FISCOFISCO-BCOS-DevOps-Docs',
    'Miscellaneous'),
 ]
 
