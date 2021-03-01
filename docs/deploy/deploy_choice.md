@@ -63,7 +63,7 @@ FISCO-BCOS 每个版本的兼容列表，请参考：[ FISCO-BCOS 版本及兼�
 ```eval_rst
 .. important::
 
-    - 
+    - 如果节点处于运行状态，在替换 `fisco-bcos` 可执行文件之前，需要先关闭节点，然后进行替换。
 ```
 
 
