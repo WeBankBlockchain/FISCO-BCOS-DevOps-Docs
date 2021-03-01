@@ -62,12 +62,12 @@ WeBASE-Front 的部署，请参考：[部署 WeBASE-Front](https://webasedoc.rea
 
 * CPU，内存，磁盘使用率，网络
 
-![webase-front-monitor](../../images/webase-front-monitor.jpg)
+![](../../images/webase-front-monitor.jpg)
 
 
 * 区块高度，pbftView，待打包交易数，如图：
 
-![webase-front-view-height](../../images/webase-front-view-height.jpg)
+![](../../images/webase-front-view-height.jpg)
 
 
 ## 监控脚本
@@ -117,7 +117,7 @@ FISCO-BCOS generator 生成的节点配置文件夹中提供了内置的监控�
 * `disconnect error P2PSession,nodeID=xxxx`
     * 没有和节点建立连接；
 
-* `TCP Connection refused by node,endpoint=10.107.105.137:30434,message=Connection refused`
+* `TCP Connection refused by node,endpoint=10.10.10.10:30434,message=Connection refused`
     * 尝试重连节点失败；
 
 * `ViewChangeWarning: not caused by omit empty block`

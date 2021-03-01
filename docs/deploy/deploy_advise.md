@@ -17,12 +17,12 @@
     * 由多个机构的节点组成。
 
 联盟、机构、节点、群组之间的关系如图：
-![league-organization-group-node](../../images/league-organization-group-node.jpg)
+![](../../images/league-organization-group-node.jpg)
 
 ## 部署流程
 部署的大概流程分为 **部署前准备**，**部署操作** 和 **验证 + 备份** 三个阶段，大致流程如图：
 
-![deploy-process](../../images/deploy-process.png)
+![](../../images/deploy-process.png)
 
 
 <span id="product_env_suggestion" />

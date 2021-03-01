@@ -46,15 +46,15 @@
 * 在浏览器输入地址：http://[IP]:5002/WeBASE-Front/#/home
 * 选择群组编号，然后点击左侧的合约管理，打开合约 IDE
 
-关于 WeBASE-Front 的部署，请参考：[部署 WeBASE-Front](#https://webasedoc.readthedocs.io/zh_CN/latest/docs/WeBASE-Front/install.html)
+关于 WeBASE-Front 的部署，请参考：[部署 WeBASE-Front](https://webasedoc.readthedocs.io/zh_CN/latest/docs/WeBASE-Front/install.html)
 
-![webase-front-solidity-ide](../../images/webase-front-solidity-ide.jpg)
+![](../../images/webase-front-solidity-ide.jpg)
 
 
 * 创建合约文件夹，上传合约文件
 * 指定点击编译和部署按钮，如下图：
 
-![webase-front-deploy-contract](../../images/webase-front-deploy-contract.jpg)
+![](../../images/webase-front-deploy-contract.jpg)
 
 
 

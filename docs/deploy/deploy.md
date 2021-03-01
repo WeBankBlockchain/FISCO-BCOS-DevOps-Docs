@@ -97,7 +97,7 @@ generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种�
 #### 单机构部署
 单机构部署是指在联盟链部署时，由协商的其中一个机构来生成所有的节点配置。
 
-![single-organization-deploy](../../images/single-organization-deploy.png)
+![](../../images/single-organization-deploy.png)
 
 
 ```eval_rst
@@ -118,7 +118,7 @@ generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种�
 
 
 #### 多机构对等部署
-![multiple-organization-deploy](../../images/multiple-organization-deploy.png)
+![](../../images/multiple-organization-deploy.png)
 
 ```eval_rst
 .. admonition:: 提示
@@ -129,7 +129,7 @@ generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种�
     - 一个机构属于多个群组时，使用 `add_group` 执行添加新群组；
     - 一个群组有 2 个以上的机构，需要将多个 `peers.txt` 需要合并到一个文件后再生成配置；
     - 生成的节点配置，只需要将配置推送到 IP 对应的物理主机即可；
-    - 如果使用落盘加密，请参考：[落盘加密](#disk_data_encryption)；
+    - 如果使用落盘加密，请参考：[落盘加密](./deploy_choice.html#disk_data_encryption)；
 ```
 
 关于 generator 部署工具在**多机构对等部署**时的操作，请参考：
@@ -145,7 +145,7 @@ generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种�
 ## 验证部署结果
 
 
-无论是部署开发环境部署，还是企业部署，都可以使用相同的方式来验证部署结果的。
+在部署操作执行完成后，不管是开发环境，还是企业环境，都可以使用相同的验证方式来检查部署的结果是否成功。
 
 
 验证部署结果主要有两种方式：
