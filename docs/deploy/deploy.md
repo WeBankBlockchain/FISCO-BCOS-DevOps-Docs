@@ -129,8 +129,7 @@ generator 同时支持 **单机构部署** 和 **多机构对等部署** 两种�
     - 一个机构属于多个群组时，使用 `add_group` 执行添加新群组；
     - 一个群组有 2 个以上的机构，需要将多个 `peers.txt` 需要合并到一个文件后再生成配置；
     - 生成的节点配置，只需要将配置推送到 IP 对应的物理主机即可；
-    - 如果使用落盘加密，请参考：[]()；
-    - `落盘加密 <./deploy_choice.html#disk_data_encryption>`_
+    - 如果使用落盘加密，请参考：`落盘加密 <./deploy_choice.html#disk_data_encryption>`_
 ```
 
 关于 generator 部署工具在**多机构对等部署**时的操作，请参考：
