@@ -31,7 +31,7 @@
 ```eval_rst
 .. admonition:: 提示
 
-     - 开发（体验）环境一般使用开发工具中的一键脚本 `build_chai.sh` 在单台主机部署 4 个节点和一个 WeBASE-Front 服务。具体操作，请参考：`开发工具部署 <../appendix/deploy_for_env.html#build_chain_webase_docker_deploy>`_
+     - 开发（体验）环境一般使用开发工具中的一键脚本 `build_chain.sh` 在单台主机部署 4 个节点和一个 WeBASE-Front 服务。具体操作，请参考：`开发工具部署 <../appendix/deploy_for_env.html#build_chain_webase_docker_deploy>`_
 ```
 
 ### 生产环境

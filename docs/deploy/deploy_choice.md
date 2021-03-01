@@ -23,7 +23,6 @@ FISCO-BCOS 每个版本的兼容列表，请参考：[ FISCO-BCOS 版本及兼�
      - 节点在第一次运行前，必须配置好是否采用落盘加密。一旦节点开始运行，无法切换状态。
 ```
 
-<span id="disk_data_encryption" />
 
 ### 启用落盘加密特性
 
@@ -59,6 +58,14 @@ FISCO-BCOS 每个版本的兼容列表，请参考：[ FISCO-BCOS 版本及兼�
 为了压缩可执行程序的文件大小，减少下载时的网络传输时间，官方提供的可执行文件去掉了调试信息。如果需要带有调试信息的可执行程序，方便后续调试，可以自行通过编译源码获得可执行程序。
 
 使用编译后的可执行程序替换部署工具生成的 `fisco-bcos` 可执行文件即可。
+
+
+```eval_rst
+.. important::
+
+    - 如果节点处于运行状态，在替换 `fisco-bcos` 可执行文件之前，需要先关闭节点，然后进行替换。
+```
+
 
 关于**源码编译**，请参考：[源码编译](https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/manual/get_executable.html#id2)
 
