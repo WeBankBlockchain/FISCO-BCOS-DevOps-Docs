@@ -26,6 +26,8 @@ FISCO-BCOS 系统部署运维实践文档是一份针对 FISCO-BCOS 区块链平
    docs/deploy/index.md
    docs/ops/index.md
    docs/appendix/index.md
+   docs/More/family-bucket.md
+   docs/More/community.md
 ..
 
  
