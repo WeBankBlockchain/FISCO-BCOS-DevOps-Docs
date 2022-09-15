@@ -173,7 +173,9 @@ FISCO-BCOS 中，一个节点代表一个 `fisco-bcos` 服务进程，在生产�
 
 操作的主要步骤：
 * 节点先加入网络，请参考：[节点加入网络](./index.html#add_node_network)
+    * 使用控制台（console）调用 `getNodeIDList`，确认节点已加入网络成功
 * 使用控制台（console）调用 `addSealer` ，设置新节点为共识节点
+    * **推荐**使用控制台（console）先调用 `addObserver` ，设置新节点为**观察节点**，并调用`getSyncStatus`确保新节点**区块同步完成**后，最后调用 `addSealer` ，设置新节点为共识节点
 * 使用控制台（console）调用 `getSealerList`，确认新节点是否在共识节点列表中
 * 备份所有节点的配置文件
 
